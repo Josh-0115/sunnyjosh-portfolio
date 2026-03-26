@@ -1,6 +1,6 @@
 // services/ragService.js
 
-const API_URL = "http://127.0.0.1:8000/chat";
+const API_URL = "https://sunnyjosh-portfolio.onrender.com/chat";
 
 export const askRAG = async (question) => {
   try {
