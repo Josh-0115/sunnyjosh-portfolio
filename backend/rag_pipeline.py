@@ -20,7 +20,7 @@ def chunk_text(text, chunk_size=500, overlap=100):
 
 
 def setup_rag():
-    if vector_store.count() > 0:
+    if  vector_store.count() == 0:
         return
 
     text = load_resume()

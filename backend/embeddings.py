@@ -12,7 +12,7 @@ genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 class EmbeddingModel:
     def embed_text(self, text: str):
         response = genai.embed_content(
-            model="models/embedding-001",
+            model="models/text-embedding-004",
             content=text
         )
         return response["embedding"]
