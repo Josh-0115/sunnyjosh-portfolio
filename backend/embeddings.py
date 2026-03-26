@@ -1,18 +1,25 @@
 # embeddings.py
 
-from sentence_transformers import SentenceTransformer
+import google.generativeai as genai
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+
 
 class EmbeddingModel:
-    def __init__(self):
-        # Lightweight + fast model
-        self.model = SentenceTransformer('all-MiniLM-L6-v2')
-
     def embed_text(self, text: str):
-        return self.model.encode(text).tolist()
+        response = genai.embed_content(
+            model="models/embedding-001",
+            content=text
+        )
+        return response["embedding"]
 
     def embed_batch(self, texts: list[str]):
-        return self.model.encode(texts).tolist()
+        return [self.embed_text(t) for t in texts]
 
 
-# Singleton instance (reuse across app)
+# Singleton instance
 embedding_instance = EmbeddingModel()
