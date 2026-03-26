@@ -10,12 +10,16 @@ const ProjectCard = ({ project }) => {
     <div className={`group flex flex-col bg-slate-50 dark:bg-slate-800 rounded-3xl overflow-hidden border border-slate-200 dark:border-slate-700 transition-all ${!isExpanded ? 'hover:-translate-y-3 hover:shadow-3xl hover:shadow-indigo-500/10 dark:hover:shadow-indigo-500/5' : 'shadow-2xl shadow-indigo-500/20'}`}>
       <div className="relative h-64 overflow-hidden">
         <img src={project.imageUrl} alt={project.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-end justify-center gap-4 p-8">
-          <a href={project.link} className="bg-white text-slate-900 px-4 py-2.5 rounded-xl font-bold text-sm flex items-center gap-2 transform translate-y-4 group-hover:translate-y-0 transition-all delay-75 hover:bg-indigo-600 hover:text-white">
+        <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent 
+                opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-all duration-300 
+                flex items-end justify-center gap-4 p-8">
+          <a href={project.link} className="bg-white text-slate-900 px-4 py-2.5 rounded-xl font-bold text-sm flex items-center gap-2 
+                                    transform translate-y-0 lg:translate-y-4 lg:group-hover:translate-y-0 transition-all hover:bg-indigo-600 hover:text-white">
             Code <GithubIcon />
           </a>
           {project.liveLink && (
-            <a href={project.liveLink} className="bg-indigo-600 text-white px-4 py-2.5 rounded-xl font-bold text-sm flex items-center gap-2 transform translate-y-4 group-hover:translate-y-0 transition-all delay-100 hover:bg-indigo-700">
+            <a href={project.liveLink} className="bg-indigo-600 text-white px-4 py-2.5 rounded-xl font-bold text-sm flex items-center gap-2 
+                                          transform translate-y-0 lg:translate-y-4 lg:group-hover:translate-y-0 transition-all hover:bg-indigo-700">
               Live Demo <ExternalLinkIcon />
             </a>
           )}
