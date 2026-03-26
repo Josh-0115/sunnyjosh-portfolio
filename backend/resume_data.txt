@@ -1,0 +1,72 @@
+SUNNY JOSH ETHALAPATI
++91-9652255127 | sunnyjosh0115@gmail.com | www.linkedin.com/in/sunny-josh
+"
+Availability: Ready to join immediately 
+Notice Period: Not Applicable
+Relocation: Yes
+Hybrid work: Yes
+Remote work: Yes
+Intrested in working place: Hyderabad, Banglore/Benguluru, Pune
+"
+SUMMARY
+Motivated Engineering graduate with hands-on experience in full-stack web application development and deployment, 
+with a strong foundation in programming and artificial intelligence concepts. Skilled in designing, developing, testing, 
+and debugging applications using Python and JavaScript, with exposure to backend systems, REST APIs, and cloudbased deployments. Knowledge of machine learning concepts, prompt engineering, data structures, and DevOps 
+practices. Strong analytical and problem-solving skills with the ability to deliver results in collaborative environments.
+EDUCATION
+Bachelors of Technology: Aditya College of Engineering & Technology || Dec-2024 || CGPA - 7.0
+Diploma: Dr. B. R. A. G. M. R. Polytechnic || March/April-2021
+Secondary School Education: Sri Sunanda Public School || March-2018
+SKILLS
+Programming Languages: Python
+Web & Application Development: React.js (Vite), HTML5, CSS3, JavaScript, Tailwind CSS, Component-based 
+Architecture, Responsive UI Development
+Backend & APIs: Node.js, Express.js, REST API Development, Authentication, Data Handling & Integration
+Databases: MongoDB, MongoDB Atlas (NoSQL)
+Version Control & Tools: Git, GitHub, GitHub Pages, Vercel, Render, AWS Concepts (Learning), CI/CD 
+Fundamentals, Testing & Debugging Practices
+Soft Skills: Clear written & verbal communication, Attention to detail, Ability to follow SOPs & checklists, Team 
+collaboration & adaptability, Self-motivated learner
+
+"
+'EXPERIENCE':
+Assistant Software Developer Intern
+AMARAVATHI Software Innovations Pvt. Ltd., | Rajahmundry | September 2024 – November 2024
+• Designed and developed responsive web applications using HTML, CSS, and JavaScript following 
+software development best practices.
+• Implemented CRUD operations and integrated RESTful APIs for real-time data processing.
+• Supported debugging, testing, and deployment activities improving application performance and 
+usability.
+"
+
+"
+'Projects / Work / Applications built':
+1.Bharat Samvidhan AI — AI Legal Assistant Web Application:
+  • Built a full-stack AI-driven legal consultation platform using MERN architecture to provide structured legal assistance and constitutional guidance.
+  • Implemented advanced prompt engineering techniques to control LLM behavior, improving response consistency and domain accuracy.
+  • Integrated Google Gemini API for real-time AI query processing and legal response generation.
+2.ShopElite (MERN E-Commerce project) 
+  • Developed and deployed a full-stack MERN e-commerce application (ShopElite) with user authentication, product filtering, cart, and checkout functionality, achieving seamless integration between frontend and backend APIs.
+  • Implemented dynamic product filtering, sorting, and global cart management to enhance user experience, ensuring persistence with local storage and MongoDB.
+  • Deployed the application on Vercel (frontend) and Render (backend) with MongoDB Atlas, enabling real-time user registration, login, and order storage for scalable performance.
+3.Modern Portfolio Website 
+  • Built and deployed a fully responsive portfolio website using React.js (Vite) and Tailwind CSS, featuring reusable components like projects, contact, and skills sections.
+  • Applied clean UI/UX design principles for enhanced user experience, including smooth navigation, social links.
+  • Version-controlled and deployed using Git & GitHub, hosted live via GitHub Pages.
+4.Stock Price Prediction using LLMs
+Tools: Python, AWS concepts (learning), Google Colab, Gemini AI, Pandas, NumPy
+  • Built data pipelines for data extraction, preprocessing, and model evaluation.
+  • Strengthened understanding of cloud-based notebooks, compute usage, and data workflows.
+  • Documented experiments and results for reproducibility.
+"
+
+LICENSES & CERTIFICATIONS:
+• AWS EDUCATE INTRODUCTION TO CLOUD 101 | License
+• Full Stack Developer Bootcamp from GeeksforGeeks | Certificate
+• Prompt Engineering & Programming with OpenAI from Columbia+ University | Certificate
+• Web Development – Amaravathi Training Institute
+
+EXTRACURRICULAR ACTIVITIES
+• Organized and led the "Water Rocket" competition as part of the academic event "VEDA 2k23" at college, 
+coordinating team participation and overseeing event execution.
+• Led a team of 5 in organizing a robotics workshop at the college.

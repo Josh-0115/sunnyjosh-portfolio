@@ -1,0 +1,157 @@
+
+export const PROJECTS = [
+  {
+    id: '1',
+    title: 'ShopElite an (e-commerce website)',
+    description: 'A full-stack e-commerce application built with React.js, Node.js, Express, and MongoDB, featuring RESTful APIs and responsive UI.',
+    summary: 'A full-stack e-commerce web application designed to deliver a seamless shopping experience with responsive UI, efficient product management, and secure backend integration.',
+    details: [
+      '-Built using React.js for a dynamic and responsive frontend',
+      '-Developed RESTful APIs with Node.js and Express.js',
+      '-Managed data using MongoDB for scalability and flexibility',
+      '-Implemented core features like product listing, cart management, and CRUD operations',
+      '-Deployed using Vercel / Render for smooth accessibility',
+    ],
+    challenges: [
+      '-Managing state across components for cart and user interactions',
+      '-Handling API integration and asynchronous data flow',
+      '-Ensuring responsive design consistency across devices',
+      '-Debugging performance issues and optimizing load times',
+    ],
+    tags: ['React', 'Nodejs', 'Express','MongoDB', 'Rest-API', 'Full-Stack'],
+    imageUrl: 'https://lh3.googleusercontent.com/pw/AP1GczOr22yOAI6Pja1n5RikoSKGBjxLf3rjGKcF0MEX7uULfz8RS2Ry2byI9OxkQRt0QHriMJ6gBqvWPHIIahTfVzl5JxULzmhS-fxfo3uyZqxutA3lQEWarZyjKH73PrKOGnXXDUw7nQBHL4qGT3xz1Ryx=w1902-h866-s-no-gm?authuser=0',
+    link: 'https://github.com/Josh-0115/ShopElite',
+    liveLink: 'https://shop-elite.vercel.app/',
+    showOnHome: true,
+  },
+  {
+    id: '2',
+    title: 'BharathSamvidhan AI',
+    description: 'An AI-powered web application leveraging LLM APIs and prompt engineering to deliver contextual insights on the Indian Constitution.',
+    summary: 'An AI-powered web application that simplifies understanding of the Indian Constitution by enabling users to query legal concepts using natural language.',
+    details: [
+      '-Applied Prompt Engineering + LLM integration in a real-world project',
+      '-Built a responsive frontend using React.js for intuitive user interaction',
+      '-Integrated LLM APIs to process and generate contextual answers about constitutional topics',
+      '-Designed prompt workflows for accurate and relevant AI responses (Prompt Engineering)',
+      '-Developed backend services using Node.js / Express.js for API handling',
+      '-Implemented structured data handling for legal content retrieval and response generation',
+      '-Deployed on modern platforms ensuring accessibility and performance'
+    ],
+    challenges: [
+      '-Crafting effective prompts to ensure accurate and context-aware AI responses',
+      '-Managing API latency and response time optimization',
+      '-Ensuring a clean and user-friendly UI for complex legal interactions',
+    ],
+    tags: ['Gemini-API', 'Node.js', 'React', 'MongoDB', 'Prompt-Engineering', 'LLM-Integration'],
+    imageUrl: 'https://lh3.googleusercontent.com/pw/AP1GczPLqwjPi5U0oLXxRCAeoU0KrpQhLHLLBJ07wXW7VE6KKSNXNoRPJ__JH7s7F52RHvj4udQhFTrWBJvIPq-4yLsBicXEhedreZ1CnHb-avLS-plVYWHxatO5R0dAN4_gzMqfEE1awLQ2a6uotus7s2yv=w1366-h869-s-no-gm?authuser=0',
+    link: '#',
+    showOnHome: true,
+  },
+  {
+    id: '3',
+    title: 'Portfolio',
+    description: 'A high-performance, responsive single-page portfolio application build with React.',
+    summary: 'A modern, high-performance Single Page Application (SPA) designed to serve as a professional digital hub. Built with React.js (Vite) and Tailwind CSS, the project focuses on high-speed performance, clean UI/UX principles, and a mobile-first responsive layout',
+    details: [
+      '-The site uses a mobile-first approach, ensuring the layout adjusts seamlessly across smartphones, tablets, and monitors.',
+      '-BIncludes smooth scrolling navigation, reusable components for different sections (Skills, Education, Experience), and social media integration.',
+      '-Developed reusable UI components improving code maintainability and scalability.'
+    ],
+    challenges: [
+      '-Moving from traditional HTML/CSS to a component-based architecture in React.',
+      '-Ensuring complex UI elements look professional on all screen sizes.',
+      '-Configuring GitHub Pages to correctly route a React application.',
+    ],
+    tags: ['React', 'TailwindCSS', 'HTML', 'CSS', 'JavaScript', 'UI/UX'],
+    imageUrl: 'https://lh3.googleusercontent.com/pw/AP1GczPIENCcP6Be3kM0Mr2NBKvs7lvlPHiMRweqyboym4FXq4IA_DOPGuRGaWCGQSer5mNNNTDd5J4-DqY_wsVG2fqxhSmcVA7dup5E9zOmE4YhDujrx1JPdeqXYIq8Pv543KR3ptp4iSwjT_GbubfGdG1e=w1895-h867-s-no-gm?authuser=0',
+    link: 'https://github.com/Josh-0115/Portfolio-repo',
+    liveLink: 'https://josh-0115.github.io/Portfolio-repo',
+    showOnHome: true,
+  }
+];
+
+export const CERTIFICATES = [
+  {
+    id: 'c1',
+    title: 'AWS Educate Getting Started with Storage - Training Badge',
+    issuer: 'Amazon Web Services Training and Certification',
+    date: 'Jan 2026',
+    imageUrl: 'https://images.credly.com/size/220x220/images/3b1b42e6-dfc2-492b-90df-8058096cb93d/blob',
+    liveLink: 'https://www.credly.com/badges/3c868075-590c-4bd2-8a05-37a18c2bcc19/public_url',
+    showOnHome: true,
+  },
+  {
+    id: 'c2',
+    title: ' Prompt Engineering & Programming with OpenAI',
+    issuer: 'Columbia+ University',
+    date: 'July 2025',
+    imageUrl: 'https://lh3.googleusercontent.com/pw/AP1GczNo-ecrNrJeYcpWVTi3Me7iQOs4GhFqkIPBRua80n07wZ__0gV4iEgJ_6BQOJbcPCn68Oz_hvC4fCSaf_cT10otp_77sUsKB-NyX31JaI3WAWYdJQsrdmC8bVXk2_DnSl4lgsdlO35bNuaNRL_kryAd=w1124-h869-s-no-gm?authuser=0',
+    liveLink: 'https://badges.plus.columbia.edu/87a69e81-87c8-4864-a6d5-3dc7844ea7a6#acc.UNPZ1Ah9',
+    showOnHome: true,
+  },
+  {
+    id: 'c3',
+    title: 'Full Stack Developer',
+    issuer: 'GeeksforGeeks',
+    date: 'July 2025',
+    imageUrl: 'https://lh3.googleusercontent.com/pw/AP1GczO1SQs5aXXDEm0yolIP6-fXH3m0B0vvcjXo4tf55nSELkPJqEDwtO1IjitZMSKR-8Pa8HaGlaVSsLd7QsZXjYFp9n5Qr-qYHUhkzs9TvwRTvLFD2RbrGG8gCjCGcxVYYO7LksYzuuvMRrBi6QR2rAa7=w1229-h869-s-no-gm?authuser=0',
+    liveLink: 'https://media.geeksforgeeks.org/courses/certificates/ef037084c67764b02ba1dacb51fcdd0e.pdf',
+    showOnHome: true,
+  },
+  {
+    id: 'c4',
+    title: 'PostgreSQL and MySQL for Beginners',
+    issuer: 'Udemy',
+    date: 'Jan 2025',
+    imageUrl: 'https://lh3.googleusercontent.com/pw/AP1GczPqlfwC5LySa8U3WRfsqmHnRdkIifAWUeUbokLpkab4viwUdsSNroVAiQzEgTuumjrITzrsF1Dvkhh4e5fYvpxGrVFPZSp6YryEZkNcqDgNwvK4CPrY6Z6ehkqzoAUeQLY7gQlPaNj66HRVL07kfgpk=w1168-h869-s-no-gm?authuser=0',
+    liveLink: 'https://www.udemy.com/certificate/UC-362125c1-89f5-4328-903f-77e65c905e83/',
+    showOnHome: false,  
+  },
+  {
+    id: 'c5',
+    title: 'AWS Educate Introduction to Cloud 101 - Training Badge',
+    issuer: 'Amazon Web Services Training and Certification',
+    date: 'April 2025',
+    imageUrl: 'https://images.credly.com/size/160x160/images/e51a8579-188d-4363-8ed1-12ad164ef57b/blob',
+    liveLink: 'https://www.credly.com/badges/02bdc705-ab1f-4a14-8c6f-242aa1fa5a8e/public_url',
+    showOnHome: false,  
+  },
+    {
+    id: 'c6',
+    title: 'AWS Knowledge: Architecting (Retired)',
+    issuer: 'Amazon Web Services Training and Certification',
+    date: 'May 2025',
+    imageUrl: 'https://images.credly.com/size/220x220/images/519a6dba-f145-4c1a-85a2-1d173d6898d9/image.png',
+    liveLink: 'https://www.credly.com/badges/16e2d19c-6f3a-471d-9b26-22d54bcf0912/public_url',
+    showOnHome: false,  
+  },
+  {
+    id: 'c7',
+    title: 'Python',
+    issuer: 'Infosys Springboard',
+    date: 'Nov 2022',
+    imageUrl: 'https://lh3.googleusercontent.com/pw/AP1GczOo3SP1aeWb1T3buKGr9TM6hEtseaHwmJ4riMCGXFdj0fcb4lbDzcD8xnf0HW7vB6JnFdm4Eop0Ztub8v9DBABGYJU3ib8mCdcEDDQZP8fwNl6-fJuTvU_rm-Dvi0Mhat7n25LvlN52wI40KdfShTnZ=w1086-h764-s-no-gm?authuser=0',
+    showOnHome: false,
+  },
+];
+
+export const SKILLS = [
+  { name: 'React', icon: 'ReactIcon', category: 'frontend' },
+  { name: 'JavaScript', icon: 'JSIcon', category: 'frontend' },
+  { name: 'Python', icon: 'PythonIcon', category: 'Programming Language' },
+  { name: 'Tailwind CSS', icon: 'TailwindIcon', category: 'frontend' },
+  { name: 'Express.js', icon: 'ExpressIcon', category: 'Backend' },
+  { name: 'Node.js', icon: 'NodeIcon', category: 'backend' },
+  { name: 'MongoDB', icon: 'MongoDBIcon', category: 'tool' },
+  { name: 'AWS', icon: 'AWSIcon', category: 'tool' },
+  { name: 'RESTAPI', category: 'Backend' },
+  { name: 'FASTAPI', category: 'Backend' },
+  { name: 'Figma', icon: 'FigmaIcon', category: 'tool' },
+  { name: 'PostgreSQL', icon: 'PostgresIcon', category: 'backend' },
+  { name: 'MySQL', icon: 'MySQLIcon', category: 'backend' },
+  { name: 'Git', icon: 'GitIcon', category: 'backend' },
+  { name: 'GitHub', icon: 'GitHubIcon', category: 'tool' },
+
+];
+
