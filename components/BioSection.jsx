@@ -128,7 +128,7 @@ const BioSection = () => {
               <h4 className="text-2xl font-black dark:text-white mb-2 transition-colors group-hover:text-indigo-600">Assistant Software Developer Intern</h4>
               <p className="font-bold text-slate-800 dark:text-slate-200 mb-4">AMARAVATHI Software Innovations Pvt. Ltd., </p>
               <ul className="text-sm text-slate-600 dark:text-slate-400 space-y-2 list-disc pl-4">
-                <li>Designed and developed 2+ responsive web applications and UI components using HTML, CSS, and JavaScript</li>
+                <li> Designed and developed 2+ responsive web applications using HTML, CSS, and JavaScript following SDLC practices.</li>
                 <li>mplemented CRUD operations and integrated REST APIs, improving data processing efficiency by ~30%. </li>
                 <li> Performed debugging and testing to resolve application issues and enhance performance. </li>
                 <li>Collaborated with cross-functional teams to implement new features and fix production issues.</li>
