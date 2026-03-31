@@ -93,7 +93,7 @@ const App = () => {
 
   const downloadResume = () => {
     alert("Opening Sunny's resume in a new tab...");
-    window.open('https://drive.google.com/file/d/11kna64zwnGaFw7lsIvv8mobaRfBJCuCV/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/1x4QlqfCxYt714FzUyrE8wOOy6A04IPtP/view?usp=sharing', '_blank');
   };
 
   return (

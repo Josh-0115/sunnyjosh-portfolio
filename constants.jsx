@@ -7,7 +7,7 @@ export const PROJECTS = [
     summary: 'A full-stack e-commerce web application designed to deliver a seamless shopping experience with responsive UI, efficient product management, and secure backend integration.',
     details: [
       '-Built using React.js for a dynamic and responsive frontend',
-      '-Developed RESTful APIs with Node.js and Express.js',
+      '-Implemented dynamic product filtering, sorting, and global cart management to 50+ products enhancing user experience.',
       '-Managed data using MongoDB for scalability and flexibility',
       '-Implemented core features like product listing, cart management, and CRUD operations',
       '-Deployed using Vercel / Render for smooth accessibility',
